@@ -1,5 +1,5 @@
 <template>
-  <router-view></router-view>
+    <h2>我是首页</h2>
 </template>
 
 <script>
@@ -11,4 +11,3 @@ export default {
 <style>
 
 </style>
-
