@@ -8,21 +8,9 @@ import './assets/base.less'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI)
-//导入路由
-import VueRouter from 'vue-router'
-Vue.use(VueRouter)
 
-//准备规则
-import index from './components/index.vue'
-import login from './components/login.vue'
+import router from './router/router.js'
 
-const routes = [
-  {path:'/index',component:index},
-  {path:'/login',component:login}
-];
-const router = new VueRouter({
-   routes
-})
 new Vue({
   render: h => h(App),
   router
